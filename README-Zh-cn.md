@@ -5,6 +5,14 @@ a form designer base on vue and element-ui and font-awesome
 使用方式，将源代码中的dist目录下的内容拷贝到自己项目的node_modules目录下
 结构如下图：
 
+--node_modules
+----form-designer
+------lib
+--------demo.html
+--------****
+------package.json
+
+
 然后在main.js中添加如下内容：
 
 `import formdesigner from 'form-designer';`
