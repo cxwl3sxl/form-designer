@@ -21,9 +21,10 @@ module.exports = {
                 return options
             })
     },
+    /*发布时，请将下面的注释打开，排除element-ui和font-awesome已减少包体积 */
     // configureWebpack: {
     //     externals: {
-    //         'element-ui': 'ELEMENT',
+    //         'element-ui': 'element-ui',
     //         'font-awesome': 'font-awesome',
     //     }
     // }
