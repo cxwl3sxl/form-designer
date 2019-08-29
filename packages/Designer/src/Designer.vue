@@ -57,12 +57,9 @@
                   </el-radio-button>
                 </el-radio-group>
                 <span class="clearance"></span>
-                <el-button
-                  size="mini"
-                  icon="el-icon-s-unfold"
-                  title="添加行"
-                  @click="addNewItemHandler"
-                ></el-button>
+                <el-button size="mini" title="添加行" @click="addNewItemHandler">
+                  <i class="fa fa-indent"></i>
+                </el-button>
               </div>
             </el-col>
           </el-row>
